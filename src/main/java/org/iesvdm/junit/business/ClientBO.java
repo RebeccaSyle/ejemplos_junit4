@@ -7,6 +7,8 @@ import org.iesvdm.junit.model.Amount;
 import org.iesvdm.junit.model.Product;
 
 public interface ClientBO {
+	
+	// Esto es un mensaje para comprobar la sincronización
 
 	Amount getClientProductsSum(List<Product> products)
 			throws DifferentCurrenciesException;
